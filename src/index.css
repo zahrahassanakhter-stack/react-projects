@@ -8,5 +8,7 @@ body {
   background-color: rgb(55, 54, 75);
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }

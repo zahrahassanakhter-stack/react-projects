@@ -1,0 +1,18 @@
+.Counterapp {
+  background: yellow;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#clickdescription {
+  color: black;
+  font-weight: bold;
+}
+.clickmebtn {
+  padding: 10px;
+  border: 1px solid black;
+}

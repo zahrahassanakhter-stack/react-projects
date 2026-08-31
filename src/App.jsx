@@ -3,6 +3,7 @@ import "./app.css";
 import heroimg from "./assets/hero.png";
 import reactimg from "./assets/react.svg";
 import viteimg from "./assets/vite.svg";
+import Count from "./components/Count";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         decription="this is a vite section image"
         style={{ "border-radius": "10px" }}
       />
+      <Count id="vount1" />
     </div>
   );
 }
