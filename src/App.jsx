@@ -1,5 +1,7 @@
 import "./App.css";
 import Useref from "./components/Useref";
+import Stopwatch from "./components/Stopwatch";
+
 import {
   increment,
   decrement,
@@ -23,6 +25,7 @@ function App() {
       <p>Count:{count}</p>
       <button onClick={handledecrement}>-</button>
       <Useref />
+      <Stopwatch />
     </div>
   );
 }
