@@ -1,6 +1,7 @@
 import "./App.css";
 import Useref from "./components/Useref";
 import Stopwatch from "./components/Stopwatch";
+import Usememohook from "./components/Usememohook";
 
 import {
   increment,
@@ -26,6 +27,7 @@ function App() {
       <button onClick={handledecrement}>-</button>
       <Useref />
       <Stopwatch />
+      <Usememohook />
     </div>
   );
 }
