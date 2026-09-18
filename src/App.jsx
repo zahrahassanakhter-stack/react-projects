@@ -2,6 +2,7 @@ import "./App.css";
 import Useref from "./components/Useref";
 import Stopwatch from "./components/Stopwatch";
 import Usememohook from "./components/Usememohook";
+import Usecallbackhook from "./components/Usecallbackhook";
 
 import {
   increment,
@@ -28,6 +29,7 @@ function App() {
       <Useref />
       <Stopwatch />
       <Usememohook />
+      <Usecallbackhook />
     </div>
   );
 }
