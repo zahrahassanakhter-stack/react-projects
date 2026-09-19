@@ -1,17 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import Childcomponent from "./Childcomponent";
 
 const Usecallbackhook = () => {
   console.log("Usecallbackhook render hua");
   const [count, setCount] = useState(0);
-  function updateCount() {
+  const updatingcount = useCallback(function updateCount() {
     setCount(count + 1);
-  }
+  }, []);
+
   return (
     <div>
-      <button onClick={updateCount}>press the count btn</button>
+      <button onClick={updatingcount}>press the count btn</button>
       {count}
-      <Childcomponent buttonname="callbackbtn" />
+      <Childcomponent buttonname="callbackbtn1" functioname={updatingcount} />
     </div>
   );
 };
